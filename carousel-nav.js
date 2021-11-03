@@ -51,23 +51,25 @@ class u1CarouselNav extends HTMLElement {
 	}
 
 	connectedCallback() {
-		var SS = refSlideshows(this)[0];
+		customElements.whenDefined('u1-carousel').then(()=>{
+			var SS = refSlideshows(this)[0];
 
-		var items = SS._items();
+			var items = SS._items();
 
-		if (items.length < 2) this.style.display = 'none';
+			if (items.length < 2) this.style.display = 'none';
 
-		items.forEach((item, index)=>{
-			var button = document.createElement('span');
-			button.addEventListener('click',()=>SS.slideTo(index));
-			button.innerHTML = index+1;
-			this.append(button);
-		});
-		SS.addEventListener('u1-carousel.slide', e=>{
-			Array.from(this.children).forEach((button, index)=>{
-				button.classList.toggle('-active', e.detail.index === index);
+			items.forEach((item, index)=>{
+				var button = document.createElement('span');
+				button.addEventListener('click',()=>SS.slideTo(index));
+				button.innerHTML = index+1;
+				this.append(button);
 			});
-		});
+			SS.addEventListener('u1-carousel.slide', e=>{
+				Array.from(this.children).forEach((button, index)=>{
+					button.classList.toggle('-active', e.detail.index === index);
+				});
+			});
+		})
 	}
 }
 customElements.define('u1-carousel-nav', u1CarouselNav)
