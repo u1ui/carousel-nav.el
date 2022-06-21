@@ -1,11 +1,6 @@
 # &lt;u1-carousel-nav&gt; - element
 null
 
-## Demos
-
-https://raw.githack.com/u1ui/carousel-nav.el/main/tests/minimal.html  
-https://raw.githack.com/u1ui/carousel-nav.el/main/tests/test.html
-
 ## Ussage
 
 ```html
@@ -24,10 +19,10 @@ https://raw.githack.com/u1ui/carousel-nav.el/main/tests/test.html
 <script src="https://cdn.jsdelivr.net/gh/u1ui/carousel-nav.el@3.0.0/carousel-nav.min.js" type=module>
 ```
 
-## Demo
+## Demos
 
-https://raw.githack.com/u1ui/carousel-nav.el/main/tests/minimal.html  
-https://raw.githack.com/u1ui/carousel-nav.el/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/carousel-nav.el/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/carousel-nav.el/main/tests/test.html)  
 
 ## About
 
