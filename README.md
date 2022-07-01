@@ -12,6 +12,15 @@ null
 </u1-carousel>
 ```
 
+```css
+u1-carousel-nav > * {
+    transition:.3s;
+}
+u1-carousel-nav > .-active {
+    transform:scale(1.2);
+}
+```
+
 ## Install
 
 ```html
@@ -21,8 +30,8 @@ null
 
 ## Demos
 
-[minimal.html](https://raw.githack.com/u1ui/carousel-nav.el/main/tests/minimal.html)  
-[test.html](https://raw.githack.com/u1ui/carousel-nav.el/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/carousel-nav.el@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/carousel-nav.el@main/tests/test.html)  
 
 ## About
 
