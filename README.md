@@ -24,8 +24,8 @@ u1-carousel-nav > .-active {
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/carousel-nav.el@3.0.0/carousel-nav.min.css" rel=stylesheet>
-<script src="https://cdn.jsdelivr.net/gh/u1ui/carousel-nav.el@3.0.0/carousel-nav.min.js" type=module>
+<link href="https://cdn.jsdelivr.net/gh/u1ui/carousel-nav.el@x.x.x/carousel-nav.min.css" rel=stylesheet>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/carousel-nav.el@x.x.x/carousel-nav.min.js" type=module>
 ```
 
 ## Demos
